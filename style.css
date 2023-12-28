@@ -3,17 +3,16 @@
 *{margin:0;padding:0}
 
 html { 
-  background: url("https://i.postimg.cc/QxCW2xfB/EF415953-E160-4-EDE-979-A-1-E88329192-D5.gif") no-repeat center center fixed; 
+  background: url("https://i.postimg.cc/QxCW2xfB/EF415953-E160-4-EDE-979-A-1-E88329192-D5.gif") no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 50% 38%;
   /* Supposedly a progressive background image fitting */
 }
 
 body {
-  background-image: url("https://i.postimg.cc/BbtCnF5L/Untitled-Artwork.gif"); 
-  background-size: cover;
   background-color: transparent;
 	/* background-color:#577Ce5 !important; */
 	font-family:courier prime,monospace;
@@ -23,6 +22,16 @@ body {
 
 h1 {
 	font-size:1.0em;
+    color: white;
+}
+
+#titleLink{
+	position: relative;
+	display: block;
+	top: 5vh;
+	margin: auto;
+	width: 75%;
+	height: auto;
 }
 
 .bouton {
@@ -193,3 +202,11 @@ background-color: #ece0dd;
 	.mobile {
 		display:block;
 }}
+
+@media only screen and (min-aspect-ratio: 5/8) {
+
+
+	#titleLink{
+		height: 50%;
+		width: 100vh;
+	}
